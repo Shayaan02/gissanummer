@@ -16,7 +16,7 @@ knapp.addEventListener('click', function () {
 
 
     if (guess == randomNum) {
-        alert(`Du vann! På ${numOfGuesses} försök.`)
+        alert(`Du vann! På ${numOfGuesses} försök. Du har även blivit hackad :)))`)
         numOfGuesses = 0;
         randomNum = Math.round(Math.random() * 100);
         document.getElementById('guesses').innerText = `Antal gissningar: ${numOfGuesses}`;
